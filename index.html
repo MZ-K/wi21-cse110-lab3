@@ -226,7 +226,70 @@
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" size="10">
 
+            <p>Type:</p>
             
+            <div>
+                <input type="checkbox" id="lyrical" name="lyrical" checked>
+                <label for="lyrical">Lyrical</label>
+            </div>
+            
+            <div>
+                <input type="checkbox" id="mumble" name="mumble">
+                <label for="mumble">Mumble</label>
+            </div>
+
+            <p>Vibe:</p>
+            
+            <div>
+                <input type="color" id="fire" name="fire" value="#FF0000">
+                <label for="fire">Fire</label>
+            </div>
+            
+            <div>
+                <input type="color" id="ice" name="ice" value="#0000FF">
+                <label for="ice">Ice</label>
+            </div>
+
+            <label for="start">First Release date:</label>
+            
+            <input type="date" id="date" name="rel-date" value="2010-01-01" min="1990-01-01" max="2021-01-01">
+
+            <label for="email">Manager's email:</label>
+            
+            <input type="email" id="email"  size="30" required>
+
+            <label for="avatar">Artist Image:</label>
+            
+            <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+
+            <label for="Listeners">Monthly Spotify Listeners:</label>
+            
+            <input type="Listeners" id="Listeners" name="Listeners" min="10" max="1000000">
+
+            <label for="url">Spotify Link:</label>
+            
+            <input type="url" name="url" id="url" size="30" required>
+
+            <p>Best decade:</p>
+            
+            <div>
+                <input type="radio" id="1990-99" name="1990-99" value="1990-99" checked>
+                <label for="1990-99">1990-99</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="2000-09" name="2000-09" value="2000-09">
+                <label for="2000-09">2000-09</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="2010-2019" name="2010-2019" value="2010-2019">
+                <label for="2010-2019">2010-2019</label>
+            </div>
+
+            <input type="submit" value="Send Info">
+
+
 
 
 
