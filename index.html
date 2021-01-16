@@ -29,8 +29,8 @@
 
             <p>
                 This paragraph contains the &lt;span&gt; tags. But again, since we don't have a CSS file, the &lt;span&gt; 
-                tags doesn't make a difference. <span color="yellow">Oh wait! it does work!</span>. I just changed the color 
-                of the previous sentence to <span color="yellow">yellow</span>. Oh no I didn't. I guess I do need a CSS. Oh well...
+                tags doesn't make a difference. <span>Oh wait! it does work!</span>. I just changed the color 
+                of the previous sentence to <span>yellow</span>. Oh no I didn't. I guess I do need a CSS. Oh well...
             </p>
 
             <p>
@@ -186,7 +186,7 @@
                 <circle cx="50" cy="50" r="40" />
             </svg>
 
-            <form action="" method="get" class="form-example">
+            <form action="store" method="get" class="form-example">
                 <label for="rapper-select">Choose your favorite rap artist:</label>
                 <select id="rapper-select">
                     <optgroup label="Lyrical">
@@ -207,14 +207,14 @@
                 <fieldset>
                     <legend>Choose your favorite UK artist</legend>
             
-                    <input type="radio" id="21 Savage" name="artist">
-                    <label for="21 Savage">21 Savage</label><br />
+                    <input type="radio" id="21Savage" name="artist">
+                    <label for="21Savage">21 Savage</label><br />
             
                     <input type="radio" id="KSI" name="artist">
                     <label for="KSI">KSI</label><br />
             
-                    <input type="radio" id="Ed Shereen" name="monster">
-                    <label for="Ed Shereen">Ed Shereen</label>
+                    <input type="radio" id="EdShereen" name="monster">
+                    <label for="EdShereen">Ed Shereen</label>
                 </fieldset>
                 
             </form>
@@ -260,7 +260,8 @@
 
             <br>
 
-            <label for="start">First Release date:</label>
+            
+            <label for="date">First Release date:</label>
             
             <input type="date" id="date" name="rel-date" value="2010-01-01" min="1990-01-01" max="2021-01-01">
 
@@ -280,7 +281,7 @@
 
             <label for="Listeners">Monthly Spotify Listeners:</label>
             
-            <input type="Listeners" id="Listeners" name="Listeners" min="10" max="1000000">
+            <input type="number" id="Listeners" name="Listeners" min="10" max="1000000">
 
             <br>
 
