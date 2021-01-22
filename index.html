@@ -5,11 +5,26 @@
         <meta charset="utf-8">
         <link rel="icon" href="iconImage.ico">
         <link rel="stylesheet" href="mystyle.css">
+        <style>
+            body {
+                background-color: yellow;
+                padding: 5px 5px 10px 10px;
+                margin: 10px 10px 10px 10px;
+            }
+
+            @media screen and (min-width: 480px) {
+                body {
+                    background-color: lightgreen;
+                    padding: 5px 5px 10px 10px;
+                    margin: 10px 10px 10px 10px;
+                }
+            }
+        </style>
     </head>
 
     <body>
         <header>
-            <h4>I am MZK. They say I am too brown to be a rapper.</h4>
+            <h4 style="color:brown;text-align:center">I am MZK. They say I am too brown to be a rapper.</h4>
         </header>
 
         <div>
@@ -31,7 +46,7 @@
             <p>
                 This paragraph contains the &lt;span&gt; tags. But again, since we don't have a CSS file, the &lt;span&gt; 
                 tags doesn't make a difference. <span>Oh wait! it does work!</span>. I just changed the color 
-                of the previous sentence to <span>yellow</span>. Oh no I didn't. I guess I do need a CSS. Oh well...
+                of the previous sentence to <span>yellow</span>. 
             </p>
 
             <p>
@@ -373,9 +388,24 @@
                 Make 21 Savage my favorite artist
             </button>
 
+            <div class="flex-container">
+                <div>yo</div>
+                <div>hi</div>
+                <div>hola</div>
+                <div>salaam</div>
+            </div>
 
-
-
+            <div class="grid-container">
+                <div class="grid-item">travis scott</div>
+                <div class="grid-item">21 savage</div>
+                <div class="grid-item">offset</div>
+                <div class="grid-item">gunna</div>
+                <div class="grid-item">nav</div>
+                <div class="grid-item">lil baby</div>
+                <div class="grid-item">quavo</div>
+                <div class="grid-item">metro boomin</div>
+                <div class="grid-item">sonny digital</div>
+            </div>
 
         </main>
 
