@@ -1,0 +1,37 @@
+* {
+    text-align: left;
+    color: brown;
+}
+
+ol li, #morefreestyle {
+    text-align: left;
+    color: chocolate;
+}
+
+main > p {
+    color: tomato;
+}
+
+p ~ label {
+    color: teal;
+}
+
+picture + p {
+    color: turquoise;
+}
+
+button.mybutton {
+    align-self: center;
+    color: crimson;
+}
+
+[stroke] {
+    align-self: center;
+}
+
+p::backdrop {
+    color: yellow;
+}
+
+
+
