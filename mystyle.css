@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
+    font-family: 'Roboto', sans-serif;
     text-align: left;
     color: brown;
 }
@@ -6,32 +9,116 @@
 ol li, #morefreestyle {
     text-align: left;
     color: chocolate;
+    border-style: solid;
+    border-color: chocolate;
+    border-width: 2px;
+    border-radius: 1cm;
+}
+
+header {
+    top: 0px;
+    left: 0px;
+}
+
+footer {
+    bottom: 0px;
+    right: 0px;
 }
 
 main > p {
-    color: tomato;
+    color: #000000; /*color all paragraphs in the main block as black*/
 }
 
 p ~ label {
-    color: teal;
+    color: rgb(65, 3, 3);
 }
 
 picture + p {
-    color: turquoise;
+    color: hsl(3, 50, 34);
 }
 
 button.mybutton {
-    vertical-align: center;
-    color: crimson;
+    color: rgba(59, 124, 66, 0.5);
 }
 
 [stroke] {
-    vertical-align: center;
+    color: hsla(83, 72, 59, 0.2);
 }
 
-p::backdrop {
-    color: yellow;
+p:hover {
+    color: red;
 }
+
+a:active {
+    background-color: salmon;
+}
+
+
+
+div {
+  width:300px;
+  max-width: 80%;
+  min-width: 20%;
+  height: 100px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  border: 0.11in solid blue;
+  margin-top: 0.2em;
+  margin-bottom: 0.1ex;
+  margin-left: 1ch;
+  margin-right: auto;
+  display: block;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+span {
+    width: 200px;
+    color: khaki;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+}
+
+h1 {
+    text-decoration: overline;
+    text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  background-color: red;
+}
+
+.flex-container > div {
+  background-color: yellow;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #red;
+  padding: 10px;
+}
+.grid-item {
+  background-color: yellow;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+
+
+
 
 
 
