@@ -21,12 +21,12 @@ picture + p {
 }
 
 button.mybutton {
-    align-self: center;
+    vertical-align: center;
     color: crimson;
 }
 
 [stroke] {
-    align-self: center;
+    vertical-align: center;
 }
 
 p::backdrop {
