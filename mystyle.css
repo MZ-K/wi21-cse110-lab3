@@ -91,6 +91,9 @@ h1 {
 .flex-container {
   display: flex;
   background-color: red;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .flex-container > div {
@@ -103,6 +106,8 @@ h1 {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
   background-color: red;
   padding: 10px;
 }
